@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <BrowserRouter>
     <App />
+    </BrowserRouter>
     <meta name="description" content="Little Lemon is a small restaurant with high class food for all"/>
     <meta name="og:title" content="Little Lemon"/>
     <meta name="og:description" content="Little Lemon is a small restaurant with high class food for all"/>

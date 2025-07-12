@@ -9,7 +9,7 @@ const Nav= () => {
   };
   return (
 
-    <nav className={'nav-bar ${menuOpen ? "open" : ""}'}>
+    <nav className={`nav-bar ${menuOpen ? "open" : ""}`}>
       <a href="/" className="logo">
       <img src={logo} alt="Little Lemon Logo" className="logo" />
       </a>
@@ -18,7 +18,7 @@ const Nav= () => {
         <div className="bar"></div>
         <div className="bar"></div>
       </div>
-        <ul className={'nav-links ${menuOpen ? "visible" : ""}'}>
+        <ul className={`nav-links ${menuOpen ? "visible" : ""}  `}>
           <li>
             <a href="/">Home</a>
           </li>
