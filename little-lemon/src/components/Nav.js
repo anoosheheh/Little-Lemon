@@ -32,7 +32,7 @@ const Nav= () => {
             <a href="/">Menu</a>
           </li>
           <li>
-            <a href="/">Reservation</a>
+            <a href="/booking">Reservation</a>
           </li>
           <li>
             <a href="/">Order Online</a>
